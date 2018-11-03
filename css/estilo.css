@@ -1,0 +1,151 @@
+body{
+    background-color: #474047;
+    margin: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+p{
+    text-align: justify;
+    line-height: 26px;
+    font-weight: normal;
+    font-size: 17px;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 50px;
+    margin: 50px 0px 0px 0px;
+    color: #ECCCBD;
+}
+
+h3{
+    font-weight: bold;
+    font-size: 35px; 
+    text-align: left;
+    color: #FEE9E4;
+}
+
+h6{
+    font-size: 20px; 
+    font-weight: lighter;
+    margin: 0px 0px 20px 0px;
+}
+
+li{
+    font-style: italic;
+}
+
+footer{
+   background-color: #614750;
+   height: 80px;
+   width: 100%;
+   padding-top: 40px;
+   position: relative;
+}
+
+.text-footer{
+  color: #ECCCBD;
+  font-weight: bold;
+  margin: 0px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.citas{
+    text-align: left;
+    line-height: 26px;
+}
+
+.letra-ligera{
+    font-weight: lighter;
+}
+
+.sangria{
+    margin-left: 30px;
+}
+
+.btn{
+    background-color: #A47972;
+    color: white;
+    font-size: 15px;
+    padding: 5px 15px 5px 15px;
+    border: 0px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.img-principal{
+    width: 100%;
+    height: 400px;
+    margin: 0px;
+    position: inherit;
+    -webkit-filter: sepia(100%);
+    filter: brightness(60%) blur(3px);
+}
+
+.img-tarjeta{
+    width: 100%;
+    height: 67%;
+    filter: grayscale(70%);
+}
+
+.tarjeta{
+    margin: 0px;
+    width: 300px;
+    height: 400px;
+    box-shadow: 0px 4px 36px 4px rgba(0,0,0,0.53);
+    background-color: white;
+    margin: 0px 9px 18px 9px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.tarjeta h1{
+    margin-top: 10px;
+    font-size: 26px;
+    margin-left: 12%;
+    margin-right: 12%;
+    color: #614750;
+}
+
+.tabla{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+.centro{
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    color: white;
+}
+
+#titulo-principal{
+    font-family: 'Dancing Script', cursive;
+    color: #ECCCBD;
+    font-weight: bold;
+    font-size: 70px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+#titulo-principal-2{
+    font-family: 'Roboto', cursive;
+    color: white;
+    font-weight: bold;
+    font-size: 28px;
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
